@@ -71,7 +71,7 @@ if option == "Game":
     computer_score = calculate_score(st.session_state.computer_cards)
 
     st.info(f"**Your cards:** {st.session_state.user_cards}, **current score:** {user_score}")
-    st.info(f"**Computer's first card:** {st.session_state.computer_cards[0]}")
+    st.info(f"**Computer's first card and second card's face is down!!!:** {st.session_state.computer_cards[0]} ")
 
     # User's turn
     if st.session_state.is_game_over:
